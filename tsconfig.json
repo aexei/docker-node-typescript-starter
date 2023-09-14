@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": true,
+    "lib": ["esnext", "DOM"],
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "incremental": true,
+    "baseUrl": "src",
+  },
+  "ts-node": {
+    "swc": true,
+    "require": ["tsconfig-paths/register"]
+  },
+  "exclude": ["build", "tests", "node_modules"],
+  "include": ["src/**/*.ts"]
+}

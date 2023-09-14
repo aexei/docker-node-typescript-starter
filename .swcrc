@@ -1,0 +1,18 @@
+{
+  "minify": true,
+  "jsc": {
+    "baseUrl": "src",
+    "parser": {
+      "syntax": "typescript"
+    },
+    "target": "es2021",
+    "minify": {
+      "compress": true,
+      "mangle": true
+    }
+  },
+  "module": {
+    "type": "commonjs"
+  },
+  "sourceMaps": true
+}
